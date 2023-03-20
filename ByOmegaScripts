@@ -1,0 +1,10 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Arsenal Script By Omega Scripts", "Sentinel")
+
+-- OMain
+local Tab = Window:NewTab("Main")
+local Section = Tab:NewSection("Best Hacks")
+
+Section:NewButton("Aimbot x ESP", "Aimbot x ESP", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/omegastudioscript/Arsenal/main/ByOmegaScripts"))()
+end)
